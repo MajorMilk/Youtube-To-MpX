@@ -122,9 +122,6 @@ namespace YoutubeDownloader
             // Get the audio stream info
             var audioStreamInfo = streamInfoSet.GetAudioStreams().GetWithHighestBitrate();
 
-            // Download the audio stream
-            var audioStream = await MAINCLIENT.Videos.Streams.GetAsync(audioStreamInfo);
-
             // Convert the audio stream to a byte array
             using (var ms = new MemoryStream())
             {
@@ -144,15 +141,12 @@ namespace YoutubeDownloader
                     Directory.CreateDirectory(directoryPath);
                 }
 
-                // Create a new YoutubeClient instance
-                var youtube = new YoutubeClient();
-
                 // Get the highest quality muxed stream for the video
-                var streamManifest = await youtube.Videos.Streams.GetManifestAsync(videoId);
+                var streamManifest = await MAINCLIENT.Videos.Streams.GetManifestAsync(videoId);
                 var streamInfo = streamManifest.GetMuxedStreams().GetWithHighestVideoQuality();
 
                 // Download the video stream to a file
-                await youtube.Videos.Streams.DownloadAsync(streamInfo, filePath);
+                await MAINCLIENT.Videos.Streams.DownloadAsync(streamInfo, filePath);
 
                 return true;
             }
@@ -178,19 +172,5 @@ namespace YoutubeDownloader
                 return bmpImage;
             }
         }
-
-        /*public static async Task<byte[]> DownloadVideoAsync(string videoId)
-        {
-            var client = new YoutubeClient();
-            var streamManifest = await client.Videos.Streams.GetManifestAsync(videoId);
-
-            // Get the highest quality video stream
-            var streamInfo = streamManifest.GetMuxedStreams().GetWithHighestVideoQuality();
-
-            // Download the video
-            var bytes = await client.Videos.Streams.DownloadAsync(streamInfo);
-
-            return bytes;
-        }*/
     }
 }
