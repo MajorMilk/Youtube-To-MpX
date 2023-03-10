@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="YoutubeDownloader.Controls.URLControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:YoutubeDownloader.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1180"
+                >
+    <Grid Background="#333333">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4.5*"/>
+
+            <!--Textbox Row-->
+            <RowDefinition Height="1*"/>
+
+            <RowDefinition Height="4.5*"/>
+        </Grid.RowDefinitions>
+
+        <!--InfoGrid-->
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="1" 
+                       Text="Please Enter A Valid YouTube URL" 
+                       TextAlignment="Center" HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"
+                       FontSize="34" Foreground="White"
+                       FontFamily="Dosis"
+                       />
+
+            <TextBlock Grid.Row="2" 
+                       Text="https://www.youtube.com/watch?v=..." 
+                       TextAlignment="Center" HorizontalAlignment="Center" 
+                       VerticalAlignment="Bottom"
+                       FontSize="18" Foreground="White"
+                       FontFamily="Dosis"
+                       />
+
+        </Grid>
+
+        <!--URL TextboxGrid-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Column="1" FontSize="24" 
+                     TextAlignment="Left" VerticalAlignment="Center" 
+                     Name="URLTextBox" 
+                     FontFamily="Dosis"/>
+
+        </Grid>
+
+        <!--ButtonGrid-->
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Button FontFamily="Dosis" FontSize="28" Grid.Column="1" Grid.Row="0" Content="Go" Background="#FF333333" Foreground="White" BorderBrush="#FFAFAFAF" Click="Button_Click"/>
+        </Grid>
+
+
+    </Grid>
+</UserControl>

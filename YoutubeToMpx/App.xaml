@@ -1,0 +1,9 @@
+﻿<Application x:Class="YoutubeDownloadNET7.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:YoutubeDownloadNET7"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="Dosis">pack://application:,,,/Fonts/#Dosis</FontFamily>
+    </Application.Resources>
+</Application>

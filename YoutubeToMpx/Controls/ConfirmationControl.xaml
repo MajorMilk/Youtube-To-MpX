@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="YoutubeDownloader.Controls.ConfirmationControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:YoutubeDownloader.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1180">
+    <Grid Background="#222222">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+
+        <Button FontFamily="Dosis" Name="CancelButton" Grid.Row="2" Grid.Column="2" Content="Cancel" Background="#FF222222" BorderBrush="#FF0000" Foreground="White" FontSize="24" Click="CancelButton_Click" />
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Button FontFamily="Dosis" Name="DownloadMp3Button" Background="#FF222222" BorderBrush="#00FF00" Content="Download MP3" Foreground="White" FontSize="24" Click="DownloadMp3Button_Click" />
+            <Button FontFamily="Dosis" Name="DownloadMp4Button" Grid.Row="1" Background="#FF222222" BorderBrush="#0000FF" Content="Download MP4" Foreground="White" FontSize="24" Click="DownloadMp4Button_Click" />
+        </Grid>
+        <!--InfoGrid-->
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.1*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Labels-->
+            <TextBlock FontFamily="Dosis" Text="Title:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock FontFamily="Dosis" Grid.Row="1" Text="Author:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock FontFamily="Dosis" Grid.Row="2" Text="Likes:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock FontFamily="Dosis" Grid.Row="3" Text="Dislikes:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            
+            <!--VideoData-->
+            <TextBlock FontFamily="Dosis" Grid.Column="1" Name="TitleBlock" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock FontFamily="Dosis" Grid.Column="1" Grid.Row="1" Name="AuthorBlock" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock FontFamily="Dosis" Grid.Column="1" Grid.Row="2" Name="LikesBlock" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock FontFamily="Dosis" Grid.Column="1" Grid.Row="3" Name="DislikesBlock" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            
+
+
+        </Grid>
+
+        <Image Grid.Row="1" Grid.Column="1" Name="ThumbNailSlot" Stretch="UniformToFill"/>
+    </Grid>
+</UserControl>

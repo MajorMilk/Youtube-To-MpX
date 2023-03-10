@@ -1,0 +1,78 @@
+﻿<Window x:Class="YoutubeDownloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YoutubeDownloader.Controls"
+        xmlns:controls="clr-namespace:YoutubeDownloader.Controls"
+        mc:Ignorable="d"
+        Title="Youtube to Mpx" Height="720" Width="1280"
+        ResizeMode="NoResize">
+
+    <Grid Background="#333333">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <!--Steps-->
+            <ColumnDefinition  Width="125"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <ContentControl Grid.Column="1" x:Name="ContentControl"/>
+
+        <!--<controls:ConfirmationControl Grid.Column="1"/>-->
+        <!--Steps Table -->
+        <Grid Grid.Row="1" Grid.Column="0" Background="#121212">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="93*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Name="LogoRow" Height="150"/>
+                <RowDefinition Name="URLRow" />
+                <RowDefinition Name="ConfirmationRow"/>
+                <RowDefinition Name="DownloadingRow"/>
+                <RowDefinition Name="DoneRow"/>
+            </Grid.RowDefinitions>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+
+                <Image Name="LogoSlot" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            </Grid>
+
+            <!-- <Rectangle Grid.Row="1" Fill="#3F1E75"/>-->
+            <!-- URL Row -->
+
+            <Rectangle Grid.Row="1" Fill="#121212" Opacity="0.5" Name="URLRect" Grid.ColumnSpan="2" />
+            <TextBlock Grid.Row="1" FontFamily="Dosis" Text="URL" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+
+
+            <!-- Confirmation Row -->
+
+            <Rectangle Grid.Row="1"  Fill="#121212" Opacity="0.5" Name="ConfirmationRect" Grid.ColumnSpan="2" Margin="0,117,0,0" Grid.RowSpan="2"/>
+            <TextBlock Grid.Row="2" FontFamily="Dosis" Text="Confirmation" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="16"/>
+
+
+            <!-- Downloading Row -->
+
+            <Rectangle Grid.Row="2"  Fill="#121212" Opacity="0.5" Name="DownloadingRect" Grid.ColumnSpan="2" Margin="0,117,0,117" Grid.RowSpan="3"/>
+            <TextBlock Grid.Row="3" FontFamily="Dosis" Text="Downloading" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+
+
+            <!-- Done Row -->
+
+            <Rectangle Grid.Row="4"  Fill="#121212" Opacity="0.5" Name="DoneRect" Grid.ColumnSpan="2"/>
+            <TextBlock Grid.Row="4" FontFamily="Dosis" Text="Done" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+
+        </Grid>
+
+
+    </Grid>
+</Window>
