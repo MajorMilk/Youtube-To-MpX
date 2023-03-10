@@ -5,7 +5,7 @@
 ![YoutubeToMpx_8XdKByOLyQ](https://user-images.githubusercontent.com/115612092/224431623-8797f4aa-621f-49b5-b8b2-d3e6cf79fd4a.png)
 
 
- A tool for downloading publicly available audio and video data from the Youtube API using the YoutubeExplode library
+ A tool for downloading publicly available audio and video data from the Youtube API using the YoutubeExplode library https://github.com/Tyrrrz/YoutubeExplode
  
  Big shoutout to Tyrrrz and the rest of the contributors who work on YoutubeExplode.
  
