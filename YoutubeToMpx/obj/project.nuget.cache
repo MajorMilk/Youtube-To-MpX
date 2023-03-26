@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BitkzM+C0JVavwLbAdqTqt84beFiCZMcXzlw9eb1xZbZMAOiksp0GDubOnrI4pj6EmJg/yC2/Vbbd/CNKhCkTg==",
+  "dgSpecHash": "HVhN1kV29PoxRCyamW2pu8IqkZxbkCL2To/AVHMRBgZEVYeNgskropMowGdhB5/0/HOrU4GkdhS8WI1YK0GYbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Will\\Documents\\GitHub\\Youtube-To-MpX\\YoutubeToMpx\\YoutubeToMpx.csproj",
+  "projectFilePath": "C:\\Users\\Will\\source\\repos\\YoutubeDownloadNET7\\YoutubeToMpx\\YoutubeToMpx.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Will\\.nuget\\packages\\anglesharp\\1.0.1\\anglesharp.1.0.1.nupkg.sha512",
     "C:\\Users\\Will\\.nuget\\packages\\cliwrap\\3.6.0\\cliwrap.3.6.0.nupkg.sha512",

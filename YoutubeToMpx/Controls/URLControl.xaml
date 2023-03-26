@@ -9,7 +9,7 @@
                 >
     <Grid Background="#333333">
         <Grid.RowDefinitions>
-            <RowDefinition Height="4.5*"/>
+            <RowDefinition Height="3.5*"/>
 
             <!--Textbox Row-->
             <RowDefinition Height="1*"/>
@@ -26,7 +26,7 @@
             </Grid.RowDefinitions>
 
             <TextBlock Grid.Row="1" 
-                       Text="Please Enter A Valid YouTube URL" 
+                       Text="Please Enter A Valid YouTube URL or Search" 
                        TextAlignment="Center" HorizontalAlignment="Center" 
                        VerticalAlignment="Center"
                        FontSize="34" Foreground="White"

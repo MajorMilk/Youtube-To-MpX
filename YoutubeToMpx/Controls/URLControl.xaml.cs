@@ -37,6 +37,8 @@ namespace YoutubeDownloader.Controls
             }
         }
 
+        public delegate void SearchControlGotoDelegate(object sender, EventArgs e);
+        public event SearchControlGotoDelegate SearchControlGoto;
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -44,7 +46,7 @@ namespace YoutubeDownloader.Controls
 
             if (!Helpers.IsValidYoutubeUrl(BoxText))
             {
-                MessageBox.Show("InvalidURL");
+                SearchControlGoto.Invoke(this, EventArgs.Empty);
                 return;
             }
             else

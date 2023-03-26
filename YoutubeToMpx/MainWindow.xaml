@@ -7,7 +7,7 @@
         xmlns:controls="clr-namespace:YoutubeDownloader.Controls"
         mc:Ignorable="d"
         Title="Youtube to Mpx" Height="720" Width="1280"
-        ResizeMode="NoResize">
+        ResizeMode="CanMinimize">
 
     <Grid Background="#333333">
         <Grid.RowDefinitions>
@@ -43,7 +43,7 @@
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
 
-                <Image Name="LogoSlot" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Image Name="LogoSlot" Grid.RowSpan="2" />
 
             </Grid>
 
@@ -51,25 +51,25 @@
             <!-- URL Row -->
 
             <Rectangle Grid.Row="1" Fill="#121212" Opacity="0.5" Name="URLRect" Grid.ColumnSpan="2" />
-            <TextBlock Grid.Row="1" FontFamily="Dosis" Text="URL" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock Grid.Row="1" FontFamily="Dosis" Text="URL" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="34,0,0,0" FontSize="20"/>
 
 
             <!-- Confirmation Row -->
 
             <Rectangle Grid.Row="1"  Fill="#121212" Opacity="0.5" Name="ConfirmationRect" Grid.ColumnSpan="2" Margin="0,117,0,0" Grid.RowSpan="2"/>
-            <TextBlock Grid.Row="2" FontFamily="Dosis" Text="Confirmation" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="16"/>
+            <TextBlock Grid.Row="2" FontFamily="Dosis" Text="Confirmation" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" FontSize="16"/>
 
 
             <!-- Downloading Row -->
 
             <Rectangle Grid.Row="2"  Fill="#121212" Opacity="0.5" Name="DownloadingRect" Grid.ColumnSpan="2" Margin="0,117,0,117" Grid.RowSpan="3"/>
-            <TextBlock Grid.Row="3" FontFamily="Dosis" Text="Downloading" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+            <TextBlock Grid.Row="3" FontFamily="Dosis" Text="Downloading" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" FontSize="16"/>
 
 
             <!-- Done Row -->
 
             <Rectangle Grid.Row="4"  Fill="#121212" Opacity="0.5" Name="DoneRect" Grid.ColumnSpan="2"/>
-            <TextBlock Grid.Row="4" FontFamily="Dosis" Text="Done" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock Grid.Row="4" FontFamily="Dosis" Text="Done" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="20"/>
 
         </Grid>
 

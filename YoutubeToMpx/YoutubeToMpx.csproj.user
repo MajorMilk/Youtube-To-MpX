@@ -5,9 +5,23 @@
     <ApplicationDefinition Update="App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-	<Resource Include="Fonts\Dosis.ttf" />
+    <Resource Include="Fonts\Dosis.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Controls\SearchControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\SearchResultControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\SearchControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\SearchResultControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

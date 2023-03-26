@@ -271,11 +271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Will\\Documents\\GitHub\\Youtube-To-MpX\\YoutubeToMpx\\YoutubeToMpx.csproj",
+      "projectUniqueName": "C:\\Users\\Will\\source\\repos\\YoutubeDownloadNET7\\YoutubeToMpx\\YoutubeToMpx.csproj",
       "projectName": "YoutubeToMpx",
-      "projectPath": "C:\\Users\\Will\\Documents\\GitHub\\Youtube-To-MpX\\YoutubeToMpx\\YoutubeToMpx.csproj",
+      "projectPath": "C:\\Users\\Will\\source\\repos\\YoutubeDownloadNET7\\YoutubeToMpx\\YoutubeToMpx.csproj",
       "packagesPath": "C:\\Users\\Will\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Will\\Documents\\GitHub\\Youtube-To-MpX\\YoutubeToMpx\\obj\\",
+      "outputPath": "C:\\Users\\Will\\source\\repos\\YoutubeDownloadNET7\\YoutubeToMpx\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "A:\\VSCOM\\SDKs\\NuGetPackages"
@@ -337,7 +337,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
