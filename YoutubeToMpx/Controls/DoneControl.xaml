@@ -25,8 +25,8 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <TextBlock FontFamily="Dosis" Text="DONE!" Foreground="White" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock FontFamily="Dosis" Grid.Row="1" Foreground="White" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center">
-                Files are downloaded to: <LineBreak/> EXE\Downloads\Author-name where EXE is the path of the program
+            <TextBlock FontFamily="Dosis" Grid.Row="1" Foreground="White" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+                Files are downloaded to: <LineBreak/> EXE\Downloads\Author-name<LineBreak/>where EXE is the path of the program
             </TextBlock>
         </Grid>
 

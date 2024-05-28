@@ -14,10 +14,11 @@
     "additionalProbingPaths": [
       "C:\\Users\\Will\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Will\\.nuget\\packages",
-      "A:\\VSCOM\\SDKs\\NuGetPackages"
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }

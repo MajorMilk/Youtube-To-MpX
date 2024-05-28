@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "HVhN1kV29PoxRCyamW2pu8IqkZxbkCL2To/AVHMRBgZEVYeNgskropMowGdhB5/0/HOrU4GkdhS8WI1YK0GYbw==",
+  "dgSpecHash": "Kb+2iyGs2I7MhNDXCpnzeIGl9FJc7KMJ+ZksH86Oj8K34mFeIFX5vW/YEUDRfRCizLYIYfgIsi6tmELv3sZUMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Will\\source\\repos\\YoutubeDownloadNET7\\YoutubeToMpx\\YoutubeToMpx.csproj",
+  "projectFilePath": "C:\\Users\\Will\\Documents\\GitHub\\Youtube-To-MpX\\YoutubeToMpx\\YoutubeToMpx.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Will\\.nuget\\packages\\anglesharp\\1.0.1\\anglesharp.1.0.1.nupkg.sha512",
-    "C:\\Users\\Will\\.nuget\\packages\\cliwrap\\3.6.0\\cliwrap.3.6.0.nupkg.sha512",
-    "C:\\Users\\Will\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\cliwrap\\3.6.6\\cliwrap.3.6.6.nupkg.sha512",
     "C:\\Users\\Will\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
-    "C:\\Users\\Will\\.nuget\\packages\\youtubeexplode\\6.2.9\\youtubeexplode.6.2.9.nupkg.sha512",
-    "C:\\Users\\Will\\.nuget\\packages\\youtubeexplode.converter\\6.2.9\\youtubeexplode.converter.6.2.9.nupkg.sha512"
+    "C:\\Users\\Will\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\youtubeexplode\\6.3.16\\youtubeexplode.6.3.16.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\youtubeexplode.converter\\6.3.16\\youtubeexplode.converter.6.3.16.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Will\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }
