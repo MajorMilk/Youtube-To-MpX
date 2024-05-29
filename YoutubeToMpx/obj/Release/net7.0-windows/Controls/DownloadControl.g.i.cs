@@ -53,7 +53,7 @@ namespace YoutubeDownloader.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/YoutubeToMpx;V1.0.0.0;component/controls/downloadcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/YoutubeToMpx;component/controls/downloadcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\DownloadControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

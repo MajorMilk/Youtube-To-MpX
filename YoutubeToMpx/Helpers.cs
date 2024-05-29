@@ -120,7 +120,7 @@ namespace YoutubeDownloader
             var streamInfoSet = await MAINCLIENT.Videos.Streams.GetManifestAsync(video.Id);
 
             // Get the audio stream info
-            var audioStreamInfo = streamInfoSet.GetAudioStreams().GetWithHighestBitrate();
+            var audioStreamInfo = streamInfoSet.GetAudioOnlyStreams().GetWithHighestBitrate();
 
             // Convert the audio stream to a byte array
             using (var ms = new MemoryStream())

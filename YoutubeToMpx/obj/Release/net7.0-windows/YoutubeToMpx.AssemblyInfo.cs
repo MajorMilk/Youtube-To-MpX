@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YoutubeToMpx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2abfaa966409c477dd4524dead38ddc1d2198234")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd1a8eabab3ce5d4a1dc62a06970d67610de59ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("YoutubeToMpx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YoutubeToMpx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

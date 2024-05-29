@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Will\source\repos\YoutubeDownloadNET7\YoutubeToMpx\obj\Release\net7.0-windows\
+C:\Users\Will\Documents\GitHub\Youtube-To-MpX\YoutubeToMpx\obj\Release\net7.0-windows\
 YoutubeToMpx
 none
 false
 TRACE;RELEASE;NET;NET7_0;NETCOREAPP
-C:\Users\Will\source\repos\YoutubeDownloadNET7\YoutubeToMpx\App.xaml
+C:\Users\Will\Documents\GitHub\Youtube-To-MpX\YoutubeToMpx\App.xaml
 7609368892
 1-1428337959
 12927474497
-2021316906269
+202-1660438196
 Controls\ConfirmationControl.xaml;Controls\DoneControl.xaml;Controls\DownloadControl.xaml;Controls\SearchControl.xaml;Controls\SearchResultControl.xaml;Controls\URLControl.xaml;MainWindow.xaml;
 
 False
